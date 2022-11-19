@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1><strong>Aula De Formulário</strong>
+
+        <!-- required significa que o preenchimento do campo é obrigatório-->
+        
+    </h1>
+  <form action="https://formspree.io/f/mlevazbr" method="post"> 
+   <p> <label for="Nome">Digite seu Nome</label> <br>
+<input placeholder="Digite aqui..." type="text" required name="Nome" > </p>
+<p> <label for="txt-1">digite sua mensagem</label><br>
+<textarea required placeholder="Digite sua mensagem aqui..." name="txt-1" id="1" cols="30" rows="10"></textarea>
+</p>
+
+  <h3>Qual o seu esporte favorito</h3>
+  <ul>
+    <li><input placeholder="F1" type="checkbox" name="f1">f1</li> 
+    <li><input placeholder="Nascar" type="checkbox" name="nascar">Nascar</li> 
+    <li><input placeholder="Futebol" type="checkbox" name="futebol">futebol</li>
+    </ul>
+    
+
+
+   <label>escolha sua cor favorita</label> <br>
+   <ul>
+    <li><input placeholder="cor" name="corfavorita" type="radio">Vermelho</li> 
+    <li><input placeholder="cor" name="corfavorita" type="radio">Azul</li> 
+    <li><input placeholder="cor" name="corfavorita" type="radio">Amarelo</li> 
+    <li><input placeholder="cor" name="corfavorita" type="radio">Verde</li> 
+   </ul>
+<br>
+<p>
+    <label>Escolha a sua cidade</label> <br>
+<select>
+    <option name="pelotas">Pelotas</option>
+    <option name="rio grande">Rio grande</option>
+    <option name="jaguarao">jaguarao</option>
+    <option name="cangucu">cangucu</option>
+    <option name="porto alegre">Porto alegre</option>
+</select>
+
+</p>
+<label for="check">Eu aceito os termos de uso</label>
+<input required placeholder="termos de uso" type="checkbox" name="check" id="2"> <br>
+<br>
+<button type="submit">Enviar</button>
+  </form>  
+</body>
+</html>

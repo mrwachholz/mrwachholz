@@ -1,0 +1,75 @@
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    #header {
+        background-color:chartreuse;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Hubballi', cursive;
+       
+    }
+    #nameAndTitle h1,h2 {
+    margin: 0;
+    }
+   h1, h2, h3  {
+    text-transform: uppercase;  /*Coloca todo o texto em CAIXA ALTA */
+    }
+    #contact {
+        list-style-type: none;
+        text-align:left;
+    }
+    #contact i {
+        width: 30px;
+        color:chartreuse;
+    }
+    #hskills {
+        list-style-type: none;
+        text-align: left;
+    }
+    #hskills i {
+        width: 30px;
+        color:chartreuse;
+    }
+    #formation {
+        list-style-type: none;
+        text-align: left;
+    }
+    #formation i {
+        width: 30px;
+        color: chartreuse;
+    }
+    #social_media {
+        list-style-type: none;
+        text-align: left;
+    }
+    #social_media i {
+        width: 30px;
+        color: chartreuse;
+    }
+    #sskills {
+        list-style-type:decimal;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 30% auto; /* site em 2 colunas 1 com 30% da tela e outra com o auto(o que sobrar) poderia ter uma terceira coluna */
+        grid-column-gap: 20px;
+    }
+    #sidebar, #content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px; /* espaço entre as linhas */
+    }
+    .card h3 {
+        font-family: 'Hubballi', cursive;
+    }
+    .card {
+        font-family: Montserrat;
+        border: 1px color black;
+        border-radius: 15px; /* arredondar a borda */
+        padding: 20px;  /* margem das h3 */
+    }
